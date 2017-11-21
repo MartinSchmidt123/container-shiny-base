@@ -9,7 +9,7 @@ It includes a mysql database client required in most of our apps.
 Run
 
 ```bash
-docker run --rm  -v "${PWD}/app.R:/app/app.R" -p 3838:3838 shiny-base
+docker run --rm -p 3838:3838 privatedata/shiny-base
 ```
 and visit [`localhost:3838`](http://localhost:3838/).
 
